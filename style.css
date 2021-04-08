@@ -1,0 +1,129 @@
+body{
+  border-sizing: border-box;
+ padding: 0%;
+margin: 0%;
+  background-color: #0c164f;
+  color:white;
+}
+#main-doc{
+display:flex;
+}
+nav{
+  border: 1px solid current;
+  width: 30%;  
+ background-color: #0c164f;
+  top:0;
+  color:white;
+  position:sticky;
+  height: fit-content;
+  }
+nav ul{
+  list-style-type:none;
+  background-color: #0c164f;
+  color:white;
+  borer-bottom:2px solid black;
+
+}
+nav ul li {
+  display:block;
+  width: 100%;
+  padding-left:0px;
+  padding-bottom: 10px;
+  font-size:25px;
+background-color: #0c164f;
+  color:white;
+}
+nav ul li a{
+  text-align: left;
+  left: 0%;
+  text-decoration: none;
+  color: white;
+  display:block;
+  width: 100%;
+  }
+nav a:hover{
+  background-color:black;
+  color:white;
+}
+#sections{
+  border: 2px solid black;
+  width: 70%;
+  padding: px 10px;
+margin-left: 0px;
+}
+#title{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  padding: 10px 5px;
+}
+.main-section header{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+
+.main-section h2{
+  color: white;
+    text-decoration-line: underline;
+  font-size: 25px;
+  font-family: monospace;
+  text-align: center;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+img{
+  text-align: center;
+  width: 320px;
+  height: 250px;
+  padding-left: 30%;
+  border-radius: 10px;
+}
+#link{
+  color: green;
+}
+
+
+code{
+  display: block; 
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  color:#0c164f;
+  border-radius: 5px;
+}
+p{
+  padding:0px 10px 0px 10px ;
+}
+.main-section li{
+  padding-left:30px;
+}
+
+@media (max-width: 815px){
+  #main-doc{
+    display:flex;
+    flex-direction: column;
+  }
+  nav{
+    position: relative;
+    width: 100%;
+  }
+  #sections{
+    width:100%;
+  }
+  img{
+    width: 200px;
+  height: 200px;}
+}
